@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<style>
+  
+
+    body {
+        margin: 10%;
+    }
+
+    .tooltip {
+        font-size: 15pt;
+        position: relative;
+        display: inline-block;
+    }
+
+    .toolti {}
+
+    .underline {
+        border-bottom: 2px dotted orangered;
+    }
+
+    .tooltip .tooltipText {
+        visibility: hidden;
+        width: 150px;
+        background-color: orangered;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 5px 5px;
+        position: absolute;
+        z-index: 1;
+        bottom: 100%;
+        left: 90%;
+        margin-left: -80px;
+    }
+
+    .tooltipWord:hover {
+        cursor: help;
+    }
+
+    .tooltipWord:hover .tooltipText {
+        visibility: visible;
+    }
+</style>
+
+<body>
+    <div class='tooltip'>This is an awesome
+        <span class='tooltipWord'>
+            <span class='underline'>tooltip</span>
+        <span class="tooltipText">It is cool</span>
+        </span>
+    </div>
+</body>
+
+</html>
