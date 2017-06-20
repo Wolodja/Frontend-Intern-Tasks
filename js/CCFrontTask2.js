@@ -1,5 +1,5 @@
 exports.damage = function (spellString) {
-    var array = spellingText.split("fe");
+    var array = spellString.split("fe");
     if (array.length != 2) {
         console.log("there is no 'fe' or 'fe' is more than once")
         return 0;
