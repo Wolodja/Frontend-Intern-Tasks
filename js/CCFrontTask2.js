@@ -66,6 +66,9 @@ function count(text) {
                                     suma -= 1;
 
                                 }
+                                if(suma<0){
+                                    suma=0;
+                                }
                             }
                         }
                     }
